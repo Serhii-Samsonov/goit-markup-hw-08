@@ -1,0 +1,32 @@
+.team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-container {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.team-information:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-text {
+  padding-top: 10px;
+}
+
+.team-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-shadow {
+  background: var(--primary-title-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}

@@ -1,0 +1,35 @@
+.clients {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  & .clients-box:nth-child(6n) {
+    margin-right: 0;
+  }
+  & .clients-box:nth-last-child(-n + 6) {
+    margin-bottom: 0;
+  }
+}
+
+.clients-list .clients-box {
+  width: calc((100% - 150px) / 6);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
